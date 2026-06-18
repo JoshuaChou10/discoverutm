@@ -2,11 +2,11 @@ import random
 from datetime import timedelta
 from types import SimpleNamespace
 
-from django.utils import timezone
 from django.apps import apps
 from django.conf import settings
 from django.core.files import File
 from django.core.management.base import BaseCommand
+from django.utils import timezone
 from faker import Faker
 
 fake = Faker()
